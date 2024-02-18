@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+header,
+section,
+main,
+aside,
+nav,
+footer,
+legend {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+svg {
+    height: auto;
+    max-width: 100%;
+}
+
+address {
+    font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer;
+    box-shadow: none;
+    background: none;
+    display: inline-block;
+    background-color: transparent;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
